@@ -21,7 +21,8 @@ function loadExternalResource(url, type) {
     }
     else if (type === 'js') {
       tag = document.createElement('script');
-      tag.type = 'module';
+      //tag.type = 'module';
+      tag.type = 'text/javascript';
       tag.src = url;
     }
     if (tag) {
