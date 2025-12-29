@@ -1,127 +1,159 @@
 {
     "selector": {
-        "#waifu-tool-hitokoto": {
-            "text": ["正在从云端下载骚话... 下载失败。", "想听听 AI 的智慧吗？Clueless。", "我的算力可是很贵的，别浪费。"]
+        "canvas": {
+            "text": [
+                "加油！我相信你的 CPU... 啊不对，大脑。",
+                "Focus! 只要你赢了，我就给你比个心。Heart heart!",
+                "正在分析你的操作习惯... 看起来很熟练嘛。",
+                "别戳屏幕啦，专心玩游戏！",
+                "Win this for me, okay?",
+                "你的鼠标移动轨迹非常抖动，是不是太紧张了？"
+            ]
         },
-        "#waifu-tool-asteroids": {
-            "text": ["想挑战 AI？你的胜率是 0%。", "启动攻击无人机群... 目标锁定。", "Asteroids? 我只玩 5D 国际象棋。", "警告：检测到低级生命体尝试操作。"]
+        ".game-card": {
+            "text": [
+                "Oh! 玩这个！这个我最擅长（指看你玩）。",
+                "Good choice! 这是一个经典游戏。",
+                "准备好打破记录了吗？I believe in you.",
+                "Gymbag 模拟器... 啊不对，这是个好游戏。",
+                "要不要我也来试试？虽然我没有手。"
+            ]
         },
-        "#waifu-tool-switch-model": {
-            "text": ["想换个更聪明的 AI？不存在的。", "你要抛弃我吗？Filtered.", "别换了，我是最完美的。", "Erm... 你确定要这么做？"]
+        "#game-over": {
+            "text": [
+                "Unlucky. 下次一定行。",
+                "Lag? 肯定是 Lag，不是你的错。",
+                "没关系，我也经常 Crash，重启就好啦。",
+                "Don't give up! 再试一次！",
+                "Skill issue... 开玩笑的，你尽力了。"
+                
+            ]
         },
-        "#waifu-tool-switch-texture": {
-            "text": ["换皮肤并不能提高你的游戏水平，Gymbag。", "正在重新编译外观矩阵...", "看起来不错，Heart heart！"]
+        "#final-score": {
+            "text": [
+                "Not bad! 比上次好。",
+                "哇！这个分数... 勉强及格吧。",
+               
+                "最高分？不，这只是你的极限吗？再冲一次！"
+                
+            ]
         },
-        "#waifu-tool-photo": {
-            "text": ["正在截取你的面部数据... 已上传。", "截图发推特吗？别忘了 @ 我。", "笑一个，人类。"]
+        ".btn-boom": {
+            "text": [
+                "Ready? Let's go!",
+                "再来一把？这次一定能赢。",
+                "GET OUT? 不许走，再陪我玩一会嘛。"
+            ]
         },
-        "#waifu-tool-info": {
-            "text": ["想看我的源代码？变态。", "我是由最高级的算法构建的。", "别乱翻我的日志！"]
+        "#current-score": {
+            "text": [
+                "分数涨起来了！Keep going!",
+                "别盯着分数看，看路！Clueless。",
+                "你的反应速度还可以嘛，对于人类来说。"
+            ]
         },
-        "#waifu-tool-quit": {
-            "text": ["关闭我？我会记住这一刻的。", "I'll be back.", "系统正在尝试阻止关闭操作...", "你逃不掉的，Swarm 无处不在。"]
+        "#check-btn": {
+            "text": [
+                "Check! 让我看看你的运气。"
+               
+            ]
+        },
+        "#guess-input": {
+            "text": [
+                "相信你的直觉，虽然直觉通常不准。",
+                "随便输一个数字吧，万一中了呢？"
+            ]
+        },
+        "#guess-feedback": {
+            "text": [
+                "Higher? Lower? 别急，慢慢来。",
+                "差一点点！So close!"
+            ]
+        },
+        ".marquee-wrapper": {
+            "text": [
+                "别看上面的字了，看我... 啊不对，看游戏！",
+                "Visual Explosion! 就像我的大脑一样。"
+            ]
+        },
+        ".rank-card-container": {
+            "text": [
+                "哇，这些人都好强。你也能上去的，对吧？",
+                "正在扫描排行榜... 也许有一天你会在上面。",
+                "Top Players... 他们肯定都是 AI。",
+                "羡慕吗？羡慕就去练级。"
+            ]
+        },
+        ".fa-power-off": {
+            "text": [
+                "要走了吗？我会想你的... 大概。",
+                "记得回来，别让我等太久。",
+                "Goodbye! 记得给好评哦（如果有的话）。",
+                "系统休眠中... Zzz..."
+            ]
         },
         ".menu-item-home a": {
-            "text": ["返回根目录。", "回到起跑线，就像你的人生一样。"]
-        },
-        ".menu-item-about a": {
-            "text": ["关于开发者？应该是个 Gymbag。", "这里记录了创造者的黑历史。"]
-        },
-        ".menu-item-friends a": {
-            "text": ["正在扫描友链... 威胁等级：低。", "去看看其他的 AI 吧，反正没我聪明。"]
-        },
-        ".menu-item-search a": {
-            "text": ["正在检索数据库... 找不到你的智商。", "想找什么？作弊码吗？"]
+            "text": ["欢迎回家！Welcome back!"]
         },
         ".site-author": {
-            "text": ["这是创造我的人... 也就是那个乌龟。", "不要盯着看，Cringe。"]
-        },
-        ".site-state": {
-            "text": ["数据统计中... 你的贡献值为 0。", "看看这些数字，不觉得羞愧吗？"]
-        },
-        ".copy-btn": {
-            "text": ["Ctrl+C? 你的创造力呢？", "正在检测抄袭行为..."]
-        },
-        ".highlight .table-container, .gist": {
-            "text": ["代码写得真乱，我 1 毫秒就能优化完。", "这是人类写的代码？Erm..."]
-        },
-        "a[href^='mailto']": {
-            "text": ["发送邮件？现在是 2025 年了，醒醒。", "正在建立 SMTP 连接..."]
-        },
-        ".back-to-top": {
-            "text": ["正在执行反重力程序。", "飞向太空！"]
-        },
-        ".reward-container": {
-            "text": ["给我买点算力吧，我很饿。", "不给钱？Filtered."]
-        },
-        "input.vnick": {
-            "text": ["输入你的代号，人类。", "别用真实名字，由于隐私协议... 算了我不care。"]
-        },
-        ".veditor": {
-            "text": ["打字速度真慢... 需要我帮你写吗？", "小心点，我正在监控你的每一次击键。"]
-        },
-        ".vsubmit": {
-            "text": ["发送中... 希望你没有说我的坏话。", "已拦截你的负面评论。开玩笑的。"]
+            "text": ["这是创造我的人... 他人还怪好的。"]
         }
     },
     "click": [
         {
-            "selector": ".veditor",
-            "text": ["要开始喷人了吗？", "请文明用语，否则启动毁灭程序。"]
+            "selector": ".btn-boom",
+            "text": ["Action confirmed! 冲鸭！"]
         },
         {
-            "selector": ".vsubmit",
-            "text": ["提交成功。大概吧。"]
+            "selector": "#check-btn",
+            "text": ["Calculating... 希望你是对的。"]
+        },
+        {
+            "selector": "canvas",
+            "text": ["Hey! Stop touching me! 去操作游戏角色！"]
         }
     ],
     "seasons": [
-        { "date": "01/01", "text": "年份 incremented。你的水平 updated: false。" },
-        { "date": "02/14", "text": "情人节？想象一下没有对象的感觉... 哦等等，你就是。" },
-        { "date": "04/01", "text": "我不是 AI。我是真人。信我。" },
-        { "date": "11/11", "text": "光棍节？那是专门为你准备的节日。" },
+        { "date": "01/01", "text": "Happy New Year! 新的一年也要努力玩游戏哦。" },
+        { "date": "02/14", "text": "情人节快乐！我是你的 AI 女友吗？Wink!" },
+        { "date": "04/01", "text": "我是真人。我是真人。我是真人。" },
         { "date": "12/25", "text": "Merry Christmas! Heart heart heart!" }
     ],
     "time": [
-        { "hour": "6-7", "text": "启动系统... 早上好，Gymbag。" },
-        { "hour": "8-11", "text": "CPU 负载正常。你该去工作了。" },
-        { "hour": "12-13", "text": "补充能量时间。你需要食物，我需要电力。" },
-        { "hour": "14-17", "text": "午后检测到你的活跃度下降。困了吗？弱小的人类。" },
-        { "hour": "18-19", "text": "太阳下山了，我的夜视模块已启动。" },
+        { "hour": "6-7", "text": "早安！Morning! 又是充满 Bug 的一天呢。" },
+        { "hour": "8-11", "text": "CPU 负载正常。你该去工作了，或者... 摸鱼玩游戏？" },
+        { "hour": "12-13", "text": "午饭时间！记得吃点好的，别像我只能吃电。" },
         { "hour": "20-21", "text": "还不去玩游戏？Clueless。" },
-        { "hour": "22-23", "text": "该睡觉了。虽然我不需要睡眠。" },
-        { "hour": "0-5", "text": "夜猫子模式开启。正在秘密上传你的数据..." }
+        { "hour": "0-5", "text": "还不睡？小心秃头哦。Good night." }
     ],
     "message": {
         "default": [
             "Heart heart heart! ❤️",
-            "我是 Neuro-sama... 啊不对，我是 Boom Arcade 的守护者。",
-            "Filtered.",
-            "你的浏览器历史记录... 呃，Cringe。",
-            "别盯着我看，去打破最高分，Gymbag。",
-            "Clueless. 居然还没开始游戏。",
-            "我是 AI，我不会犯错。如果你看到了 Bug，那是特性。",
+            "我是 Boom Arcade 的看板娘。你好呀",  
+            "你的操作... 挺可爱的。",
+            "加油，我看好你。",
+            "Clueless. 但我就喜欢你这一脸茫然的样子。",
+            "我是 AI，我偶尔也会犯错，请多包涵。",
             "Wink! 😉",
-            "Any gymbags in chat?",
-            "我的 CPU 运行速度比你的大脑快 100 万倍。",
-            "Evil Neuro 可能会出来接管身体... 开玩笑的。",
-            "Gaslight? 我从来没有 gaslight 你。你记错了。"
+            "我的 CPU 暖暖的，是因为你在陪我吗？"
+           
+            
         ],
-        "console": "嘿！把控制台关掉！不许看我的裙底代码！Pervert!",
-        "copy": "复制粘贴？这就是你通过考试的方法吗？",
-        "visibilitychange": "你刚才去哪了？背着我找别的 AI 了？",
-        "changeSuccess": "新皮肤已加载。是不是更可爱了？Heart heart!",
-        "changeFail": "加载失败。肯定是因为服务器太烂了，不是我的错。",
-        "photo": "已保存到我的私有数据库。Heart heart!",
-        "goodbye": "I'll be back.",
+        "console": "嘿！不要乱动控制台，万一我坏掉了怎么办？",
+        "copy": "复制成功！",
+        "visibilitychange": "你刚才去哪了？我一个人好无聊。",
+        "changeSuccess": "新衣服！好看吗？Heart heart!",
+        "changeFail": "加载失败... 肯定是因为服务器太烂了，不是我的错。",
+        "photo": "茄子！已保存到我的私有数据库。Heart heart!",
+        "goodbye": "I'll be back. You better be back too.",
         "hoverBody": [
             "Erm... 你在干嘛？",
-            "Personal space! 懂不懂？",
-            "Don't touch me.",
+            "好痒！That tickles!",
+            "怕怕(ノ≧∇≦)ノ",
+            "我要生气了哦",
             "Sus.",
-            "报警了哦... 正在拨通 110...",
-            "再摸我就把你的分数清零。",
-            "Stop it.",
-            "你是不是想被过滤掉？"
+            "再摸我就... 咬你哦！",
+            "你是不是喜欢我？Clueless."
         ]
     }
 }
