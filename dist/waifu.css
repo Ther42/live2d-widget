@@ -33,6 +33,10 @@
 	transform: translateY(25px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
 	z-index: 1;
+	/* 【关键修改】强制限制宽度，让 JS 知道它没占满屏幕 */
+    width: 300px; 
+    /* 防止拖动时产生“飘”的感觉，不让 left/top 参与过渡动画 */
+    transition-property: transform, bottom, opacity;
 }
 
 #waifu.waifu-active {
